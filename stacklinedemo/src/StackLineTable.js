@@ -12,7 +12,6 @@ import './StackLineTable.css';
 import moment from 'moment';
 function StackLineTable() {
     const [ dataDetails ] = useState(data);
-    console.log(dataDetails);
     return (
         <TableContainer>
         <Table aria-label="simple table">
@@ -28,7 +27,7 @@ function StackLineTable() {
           <TableBody>
             {dataDetails[0].sales.map((row) => (
               <TableRow
-                key={"UniqueID"}
+                key={"id" + Math.random().toString(16).slice(2)}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
                 <TableCell align="left">{moment(row.weekEnding, 'YYYY-MM-DD').format('MM-DD-YY')}</TableCell>

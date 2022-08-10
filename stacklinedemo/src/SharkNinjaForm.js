@@ -17,7 +17,7 @@ function SharkNinjaForm() {
                     {
                         data[0].tags.map((row) => {
 
-                            return <Chip label={row} variant="outlined" />
+                            return <Chip key={ Math.random().toString(16).slice(2)} label={row} variant="outlined" />
                         }
                         )
                     }
