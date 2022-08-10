@@ -1,0 +1,9 @@
+ .MuiTable-root {
+    width: 500px;
+    flex-direction: row-reverse
+ }
+.shark-ninja-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}

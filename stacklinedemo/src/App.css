@@ -1,0 +1,26 @@
+.content-item {
+  display: flex;
+  
+}
+.stackline-logo {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.shark-ninja-form {
+  width: 0px;
+}
+.card {
+  padding: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.21);
+  margin: 15px;
+  background: white;
+  flex-grow: 1;
+}
+.content-item {
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  background:azure;
+  margin-top: 40px;
+}
